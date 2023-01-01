@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Oswald:wght@300&display=swap');
+
+body{
+    background-image: linear-gradient(to right,#2C3E50, #000000);
+    color: white;
+}
+
+b{
+    margin-right: 5px;
+    color: black;
+}
+
+.launches{
+    text-decoration: none;
+    color: cyan;
+    margin-left: 102px;
+}
+
+.launches:hover{
+    color: #f8dc75;
+}
+
+p{
+    margin-left: 88px;
+    color: #f8dc75;
+    font-size: 20px;
+}
+
+.image{
+    width:300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.name ,.status ,.launch_successes{
+    margin-bottom: 10px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.detail-div{
+    height: 100px;
+    font-family: 'Mukta', sans-serif;
+    width: 300px;
+    overflow: auto;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.detail-div::-webkit-scrollbar {
+    display: none;
+}
+
+.flex-container {
+    background-image: linear-gradient(to right,#04619F, #000000);
+    border: 3px solid blue;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    justify-content: center;
+    padding: 3px;
+}
+
+.random{
+    margin-top: 30px;
+    padding:0% 12%;
+}
